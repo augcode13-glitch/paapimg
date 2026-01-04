@@ -1,0 +1,13 @@
+{
+  "name": "image-gallery",
+  "pages_build_config": {
+    "build": {
+      "command": "npm run build",
+      "cwd": "/"
+    },
+    "upload": {
+      "format": "modules",
+      "dir": "./dist"
+    }
+  }
+}
